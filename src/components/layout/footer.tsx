@@ -16,6 +16,7 @@ export function Footer() {
                 src="/images/logo.png" 
                 alt="Tanzania Travel Company" 
                 fill
+                sizes="160px"
                 className="object-contain object-left" 
               />
             </Link>
