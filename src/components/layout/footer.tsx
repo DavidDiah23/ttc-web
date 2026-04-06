@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
@@ -10,8 +11,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Column 1: Brand & Socials */}
           <div className="space-y-6">
-            <Link href="/" className="font-heading text-3xl font-bold tracking-tight text-primary">
-              TTC.
+            <Link href="/" className="relative h-16 w-40 flex items-center shrink-0 mb-4 invert">
+              <Image 
+                src="/images/logo.png" 
+                alt="Tanzania Travel Company" 
+                fill
+                className="object-contain object-left" 
+              />
             </Link>
             <p className="text-[#7A5A42] leading-relaxed max-w-sm">
               Experience the ultimate African safari, Kilimanjaro climbs, and Zanzibar escapes with 100% true local experts.

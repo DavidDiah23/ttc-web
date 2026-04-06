@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
@@ -41,8 +42,14 @@ export function Navbar() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between h-20 md:h-24">
             {/* Logo */}
-            <Link href="/" className="font-heading text-2xl md:text-3xl font-bold tracking-tight text-foreground">
-              TTC.
+            <Link href="/" className="relative h-12 w-32 md:h-16 md:w-40 flex items-center shrink-0">
+              <Image 
+                src="/images/logo.png" 
+                alt="Tanzania Travel Company" 
+                fill
+                className="object-contain object-left"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation */}
