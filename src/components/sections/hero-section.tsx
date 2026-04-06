@@ -31,7 +31,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-[#C4783A] uppercase tracking-[0.2em] text-sm md:text-base font-semibold mb-6 block"
+          className="text-[#C4783A] uppercase tracking-[0.2em] text-xl md:text-3xl font-semibold mb-6 block"
         >
           Tanzania Travel Company
         </motion.span>
