@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Column 1: Brand & Socials */}
           <div className="space-y-6">
-            <Link href="/" className="relative h-16 w-40 flex items-center shrink-0 mb-4 invert">
+            <Link href="/" className="relative h-20 w-64 flex items-center shrink-0 mb-6 invert">
               <Image 
                 src="/images/logo.png" 
                 alt="Tanzania Travel Company" 
