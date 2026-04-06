@@ -39,10 +39,10 @@ export function Navbar() {
         transition={{ duration: 0.5, ease: "easeInOut" }}
         className="fixed w-full z-50 transition-colors"
       >
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="flex items-center justify-between h-36 md:h-56 py-4">
+        <div className="w-full max-w-[95%] 2xl:max-w-7xl mx-auto px-4 lg:px-8">
+          <div className="flex items-center justify-between h-28 md:h-36 lg:h-40 py-4">
             {/* Logo */}
-            <Link href="/" className="relative h-28 w-[22rem] md:h-44 md:w-[36rem] flex items-center shrink-0 mt-2">
+            <Link href="/" className="relative h-16 w-48 md:h-20 md:w-56 lg:h-28 lg:w-72 flex items-center shrink-0 mt-2">
               <Image 
                 src="/images/logo.png" 
                 alt="Tanzania Travel Company" 
@@ -54,7 +54,7 @@ export function Navbar() {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-8">
+            <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
