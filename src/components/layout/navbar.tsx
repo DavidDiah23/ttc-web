@@ -42,7 +42,7 @@ export function Navbar() {
         <div className="w-full max-w-[95%] 2xl:max-w-7xl mx-auto px-4 lg:px-8">
           <div className="flex items-center justify-between h-28 md:h-36 lg:h-40 py-4">
             {/* Logo */}
-            <Link href="/" className="relative h-16 w-48 md:h-20 md:w-56 lg:h-28 lg:w-72 flex items-center shrink-0 mt-2">
+            <Link href="/" className="relative h-16 w-48 md:h-24 md:w-64 lg:h-32 lg:w-80 xl:h-36 xl:w-[26rem] flex items-center shrink-0 mt-2">
               <Image 
                 src="/images/logo.png" 
                 alt="Tanzania Travel Company" 

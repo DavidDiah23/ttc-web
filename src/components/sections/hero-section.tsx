@@ -40,7 +40,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-          className="font-heading text-4xl md:text-5xl lg:text-6xl text-[#FFF8F2] font-medium leading-tight mb-8 max-w-4xl"
+          className="font-heading text-4xl md:text-5xl lg:text-7xl xl:text-[5.5rem] text-[#FFF8F2] font-medium leading-tight mb-8 max-w-5xl"
         >
           Plan Something <br className="hidden md:block" /> Extraordinary
         </motion.h1>
