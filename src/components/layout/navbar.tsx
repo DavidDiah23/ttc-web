@@ -40,9 +40,9 @@ export function Navbar() {
         className="fixed w-full z-50 transition-colors"
       >
         <div className="container mx-auto px-4 md:px-6">
-          <div className="flex items-center justify-between h-20 md:h-24">
+          <div className="flex items-center justify-between h-28 md:h-36 py-2">
             {/* Logo */}
-            <Link href="/" className="relative h-16 w-48 md:h-24 md:w-64 flex items-center shrink-0">
+            <Link href="/" className="relative h-20 w-64 md:h-28 md:w-80 flex items-center shrink-0 mt-2">
               <Image 
                 src="/images/logo.png" 
                 alt="Tanzania Travel Company" 
